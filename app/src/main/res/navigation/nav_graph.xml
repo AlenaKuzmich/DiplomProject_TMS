@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="by.alena.diplomproject.UI.MainFragment"
+        android:label="About coctails"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="by.alena.diplomproject.UI.FirstFragment"
+        android:label="All coctails"
+        tools:layout="@layout/fragment_first" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="by.alena.diplomproject.UI.SecondFragment"
+        android:label="Chosen coctail"
+        tools:layout="@layout/fragment_second"
+        >
+    </fragment>
+    <fragment
+        android:id="@+id/yourCoctailReceptFragment"
+        android:name="by.alena.diplomproject.UI.YourCoctailReceptFragment"
+        android:label="Add your coctail recept"
+        tools:layout="@layout/fragment_your_coctail_recept" >
+        <action
+            android:id="@+id/action_yourCoctailReceptFragment_to_listYourCoctailsFragment"
+            app:destination="@id/listYourCoctailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listYourCoctailsFragment"
+        android:name="by.alena.diplomproject.UI.ListYourCoctailsFragment"
+        android:label="List your coctails"
+        tools:layout="@layout/fragment_list_your_coctails" />
+
+</navigation>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DiplomProject</string>
+
+    <string name="to_first">All coctails</string>
+    <string name="to_second">Chosen coctail</string>
+    <string name="get_data">Show all coctails</string>
+    <string name="story_of_coctail">
+        One cocktail story refers to the leftovers of a cask of ale, called cock tailings. The cock tailings from various spirits would be mixed and sold as a lower-priced mixed beverage of (understandably) questionable integrity.
+
+        Yet another unappetizing origin tells of a cock ale, a mash of ale mixed with whatever was available to feed fighting cocks.Cocktail" may have derived from the French term for an egg cup, coquetel.
+
+        One story that brought this reference to America speaks of Antoine Amedie Peychaud of New Orleans, who mixed his Peychaud Bitters into a stomach remedy served in a coquetel.
+
+        Not all of Peychaud's customers could pronounce the word, and it became known as a cocktail. Due to conflicting dates, this story doesn't quite add up, however.
+
+        The word cocktail may be a distant derivation of the name for the Aztec goddess, Xochitl (SHO-cheetl, meaning "flower" in Nahuatl). Xochitl was also the name of a Mexican princess who served drinks to American soldiers.
+
+        It was an 18th- and 19th-century custom to dock the tails of draft horses, which caused the tail to stick up like a cock's tail. As the story goes, a reader's letter to The Balance and Columbian Repository explains that when drunk, these cocktails made you "cock your tail" up in the same manner.
+Another horse tale supposes the influence of a breeder's term for a mix breed horse, or cock-tails. Both racing and drinking were popular among the majority of Americans at the time; the name may have transferred from mixed breeds to mixed drinks."
+            </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>
